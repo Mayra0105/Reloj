@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #000000, #34383d); 
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    font-size: 10vw;
+    text-shadow: 0 0 20px rgba(0, 255, 255, 0.7); 
+    border: 2px solid #00ffcc;
+    padding: 2vw; 
+    border-radius: 1.1vw; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .clock {
+        font-size: 15vw;
+        padding: 4vw;
+        border-radius: 2vw;
+    }
+}
